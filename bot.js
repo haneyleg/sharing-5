@@ -15,13 +15,7 @@ client.on('ready', () => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
-
-نحن نرحب بك في سيرفرنا 
-تفضل وسمعنا صوتك الجميل 
-يا عسل
-
-joined C A S A N O V A
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
 C A S A N O V A 
         [https://discord.gg/Kx6w6pa]                            
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
@@ -34,13 +28,7 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
-
-نحن نرحب بك في سيرفرنا 
-تفضل وسمعنا صوتك الجميل 
-يا عسل
-
-joined C A S A N O V A
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
 C A S A N O V A
         [https://discord.gg/Kx6w6pa]                            
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
