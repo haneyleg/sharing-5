@@ -16,9 +16,9 @@ client.on('ready', () => {
   return channel.send(` 
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
-C A S A N O V A 
+
         [https://discord.gg/Kx6w6pa]                            
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`)
 }).catch(console.error)
 
@@ -29,9 +29,35 @@ client.on("guildMemberAdd", member => {
   return channel.send(` 
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
-C A S A N O V A
+
         [https://discord.gg/Kx6w6pa]                            
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+
+
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        [https://discord.gg/Kx6w6pa]                            
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        [https://discord.gg/Kx6w6pa]                            
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
